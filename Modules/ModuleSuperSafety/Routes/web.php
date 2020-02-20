@@ -14,6 +14,9 @@ use Modules\ModuleSuperSafety\Http\Middleware\SuperSafety;
 |
 */
 
-Route::group(['prefix' => 'modulesupersafety', 'middleware' => [SuperSafety::class]], function () {
-    Route::get('/', 'ModuleSuperSafetyController@index');
+Route::domain('intranet.laravel-modulos.test')->group(function () {
+
+    Route::group(['prefix' => 'modulesupersafety', 'middleware' => [SuperSafety::class]], function () {
+        Route::get('/', 'ModuleSuperSafetyController@index');
+    });
 });

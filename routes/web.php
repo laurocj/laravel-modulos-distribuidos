@@ -14,12 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::domain('{account}.myapp.com')->group(function () {
-// Route::domain('minha.laravel-modulos.test')->group(function () {
-//     Route::get('/', function ($account, $id) {
-//         return 'foi';
-//     });
-// });
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'HomeController@index')->name('home');
