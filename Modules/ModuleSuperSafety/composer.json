@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/modulesupersafety",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ModuleSuperSafety\\Providers\\ModuleSuperSafetyServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ModuleSuperSafety\\": ""
+        }
+    }
+}

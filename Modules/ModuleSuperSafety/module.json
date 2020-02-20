@@ -1,0 +1,13 @@
+{
+    "name": "ModuleSuperSafety",
+    "alias": "modulesupersafety",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\ModuleSuperSafety\\Providers\\ModuleSuperSafetyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
